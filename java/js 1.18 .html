@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<button type="button" id="mybtn" onclick="Teja()">Show me</button>
+</body>
+<script>
+	function Teja()
+	{
+		var i,j;
+		for(i=97;i<=122;i++)
+		{
+			for(j=97;j<=i;j++)
+			{
+				document.write(String.fromCharCode(j)+" ");
+			}
+		document.write("<br/>");
+		}
+	}
+	var a=document.getElementsById("mybtn");
+	a.enabled=true;
+</script>
+</html>
