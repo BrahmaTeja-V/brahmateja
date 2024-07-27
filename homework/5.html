@@ -1,0 +1,32 @@
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <script src="function validateForm().js"></script>
+</head>
+<body>
+    <h>Registration Form</h>
+    <form id="registrationForm" onsubmit="return validateForm()">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" minlength="8" maxlength="10" ><br><br>
+       
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="1" max="99" ><br><br>
+       
+        <label for="pinCode">PIN Code:</label><br>
+        <input type="text" id="pincode" name="pinCode"  ><br><br>
+       
+        <label for="panNumber">PAN Number</label><br>
+        <input type="text" id="panNumber" name="panNumber"  ><br><br>
+       
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" ><br><br>
+       
+        <label for="phoneNumber">Phone Number</label><br>
+        <input type="tel" id="phoneNumber" name="phoneNumber"  ><br><br>
+       
+        <input type="submit" value="Submit">
+    </form>
+
+   
+</body>
+</html>
